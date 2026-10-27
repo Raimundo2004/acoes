@@ -46,7 +46,7 @@ flowchart LR
 | **Coleta** | Busca o histórico diário (intervalo de 1 dia) das quatro ações na Brapi.dev e grava no Supabase. |
 | **Automação** | Todo dia consulta a API, verifica se há dados do pregão atual ainda não gravados e os insere no banco, mantendo o dashboard atualizado. |
 | **Dash** | Dashboard que lê o histórico (`hist_moeda`) e as previsões (`prev_moeda`). |
-| **ML / Estudo** | Experimentos para escolher o melhor modelo e avaliar o desempenho. |
+| **ML / jupyter** | Experimentos para escolher o melhor modelo e avaliar o desempenho. |
 | **ML / Produção** | Usa o modelo escolhido para prever, com os dados do dia, o pregão seguinte e grava em `prev_moeda`. |
 
 ## Modelo de Machine Learning
