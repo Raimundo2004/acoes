@@ -13,9 +13,9 @@ load_dotenv()
 def get_engine():
     url_banco = URL.create(
         "postgresql+psycopg2",
-        username=os.environ["DB_USER"],
-        password=os.environ["PASSWORD"],
-        host=os.environ["DB_HOST"],
+        username=os.getenv["DB_USER"],
+        password=os.getenv["PASSWORD"],
+        host=os.getenv["DB_HOST"],
         port=5432,
         database="postgres",
     )
