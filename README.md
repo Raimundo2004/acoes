@@ -94,5 +94,5 @@ Experimentei usar a **Regressão Logística** para classificar cada previsão co
 
 ## Autor
 
-**[Raimundo Elias]** · [LinkedIn](www.linkedin.com/in/raimundo-elias-dos-santos-neto) · [GitHub](https://github.com/Raimundo2004)
+**Raimundo Elias** · [LinkedIn](www.linkedin.com/in/raimundo-elias-dos-santos-neto) · [GitHub](https://github.com/Raimundo2004)
 
