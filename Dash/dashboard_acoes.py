@@ -265,5 +265,4 @@ with aba3:
         xaxis_rangeslider_visible=False,
         margin=dict(l=0, r=0, t=10, b=0),
     )
-    graf4.update_yaxes(range=[10,60])
     col4.plotly_chart(graf4, use_container_width=True)
